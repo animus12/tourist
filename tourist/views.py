@@ -12,3 +12,4 @@ def about(request):
 def contacts(request):
     return render(request, 'tourist/contacts.html', )
 
+
