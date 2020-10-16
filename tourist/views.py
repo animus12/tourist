@@ -9,7 +9,10 @@ def home(request):
 def about(request):
     return render(request, 'tourist/about.html', )
 
-def contacts(request):
-    return render(request, 'tourist/contacts.html', )
+def contact(request):
+    return render(request, 'tourist/contact.html', )
+
+def login(request):
+    return render(request, 'tourist/login.html', )
 
 
