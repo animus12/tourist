@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> {% block title %} {% endblock %}</title>
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,8 +20,8 @@
 
 
     {% include 'tourist/header.html' %}
-    <div class="bg vh-100 m-0 position-relative">
-      <div class="mak" style="position: absolute; background-color: black; top: 0; bottom: 0; width: 100%; opacity: 0.3 " ></div>
+    <div  class="bg vh-100 m-0 position-relative">
+      <div class="mak" style="position: absolute; background-color: black; top: 0; bottom: 0; right: 0; left: 0; opacity: 0.5 " ></div>
       {% block main %} {% endblock %}
     </div>
     {% include 'tourist/footer.html' %}
